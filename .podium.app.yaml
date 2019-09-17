@@ -35,9 +35,7 @@ hooks:
   build: |
     echo 'My awesome build!'
     date
-    ls -la
-    ps -aux
-    echo 'My awesome build!'
+    echo 'My awesome build just finished...'
   # Deploy hook is executed on the app server, allowing for database access.
   deploy: |
     echo 'Deploy script...'
